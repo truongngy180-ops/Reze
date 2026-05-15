@@ -43,7 +43,7 @@ const config = {
         status                  : 'online',             // 'online' | 'idle' | 'dnd'
         activity: {
             type                : 0,                    // https://discord.com/developers/docs/topics/gateway-events#activity-object-activity-types
-            name                : '+help | music',
+            name                : 'Tớ chờ cậu ở quán cà phê nhé. 💟',
             // state               : '',
             // url                 : '',                // The streaming type currently only supports Twitch and YouTube. Only https://twitch.tv/ and https://youtube.com/ urls will work.
         },
