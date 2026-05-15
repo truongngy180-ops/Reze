@@ -59,7 +59,7 @@ const config = {
         },
         // Auto leave channel settings
         autoLeave: {
-            enabled             : true,
+            enabled             : false,
             cooldown            : 5000,         // ms
         },
 
@@ -102,12 +102,12 @@ const config = {
         // Voice channel status emojis (standard or custom Discord emojis)
         // Set to [] to disable emoji. If multiple provided, a random one is picked each time.
         // Custom emojis: use format '<:name:id>' or '<a:name:id>' for animated
-        voiceStatusEmojis       : ['🎵'],
+        voiceStatusEmojis       : ['☕ '],
 
         // Voice channel status idle text (shown when bot is in channel but nothing is playing)
         // Set to '' to disable idle status. Supports standard or custom Discord emojis in the text.
         // Example: '🎵 Use /play to jam!'
-        voiceStatusIdleText     : '🎵 Use /play to jam!'
+        voiceStatusIdleText     : 'Reze tới rùi nè!'
     },
 
     blacklist                   : [],           // It must be the user ID (string[])
